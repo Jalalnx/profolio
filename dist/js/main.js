@@ -9,6 +9,7 @@ const menuBrabding = document.querySelector
 ('.menu-branding');
 const navItems =document.querySelectorAll
 ('.nav-item');
+//set Iniitial State Of Menu 
 
 let showMenu = false;
 
@@ -31,6 +32,8 @@ function toggleMenu(){
         menuNav.classList.remove('show');
         menuBrabding.classList.remove('show');
         navItems.forEach(item => item.classList.remove('show'));
+
+        showMenu =false;
 
     }
 }
