@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Daroat portfolio Website",
   "main": "index.js",
-  "homepage":"https://jalalnx.github.io/profolio/index.html",
+  "homepage":"https://jalalnx.github.io/profolio",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
    "deploy" :"gh-pages -b master -d dist"
