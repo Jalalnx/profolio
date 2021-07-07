@@ -68,6 +68,17 @@
 }
 //smartphons
 @include mediaSm{
+    main{
+        display: inline;
+        align-items: center;
+        text-align: center;
+        font-size: smaller;
+        font-size: 10px;
+        .lg-heading{
+            line-height: 0.5;
+            margin-bottom: 0.5rem;
+        }
+ }
     main#home h1{
         margin-top: 10vh;
 
